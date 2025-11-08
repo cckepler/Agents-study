@@ -2,7 +2,8 @@
 # from llm_client import HelloAgentsLLM
 import ast
 import re
-from prompt.prompt import PLANNER_PROMPT_TEMPLATE, EXECUTOR_PROMPT_TEMPLATE
+
+from ..prompt.prompt import PLANNER_PROMPT_TEMPLATE, EXECUTOR_PROMPT_TEMPLATE
 
 
 class PlanAndSolveAgent:
